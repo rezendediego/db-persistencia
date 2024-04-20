@@ -1,0 +1,20 @@
+#### Projeto Individual Disciplina Banco de Dados e Persistência em Java [23E4_2] - Pós-Graduação Engenharia de Software com Java | Instituto Infnet ####
+
+**Aluno: Diego Henrique Cornelio de Rezende**
+
+-------------------------------------------------------------------
+#### ORGANIZAÇÃO DAS SOLUÇÕES - PROJETO PERSISTÊNCIA COM JDBC, JPA/HIBERNATE, SPRING DATA 
+
+> Nota Informativa
+> - O banco de dados utilizado MySQL através do MYSQL Workbench. 
+> 
+> - Para verificação, favor habilitar o workbench e inicializar o App como Java Application
+>
+> - Cada Solução está em um branch próprio.
+
+
+![Diagrama de Classes](/imagens/apptransporte_classes.png)
+
+
+
+![Diagrama completo com atributos e metodos](/imagens/apptransporte_metodos_atributos.png)
