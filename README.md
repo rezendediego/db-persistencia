@@ -1,6 +1,6 @@
 # Persistência com JDBC
 
-Projeto minimalista para demonstrar como salvar o Pojo Museu
+Projeto minimalista para demonstrar como manipular o Pojo Museu através de operações CRUD
 usando JDBC.
 
 ### Como verificar:
