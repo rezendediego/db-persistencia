@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="br.infnet.diegorezende.hibernate.model.Pintor" table="Pintor">
+        <id name="id" type="java.lang.Integer">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <property name="nome" column="nome" type="string"/>
+        <property name="nascimento" column="nascimento" type="date"/>
+        <set name="pinturas" inverse="true" cascade="all">
+            <key column="pintor_id"/>
+            <one-to-many class="br.infnet.diegorezende.hibernate.model.Pintura"/>
+        </set>
+    </class>
+</hibernate-mapping>

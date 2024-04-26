@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="br.infnet.diegorezende.hibernate.model.Pintura" table="Pintura">
+        <id name="id" type="java.lang.Integer">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <property name="nome" column="nome" type="string"/>
+        <many-to-one name="pintor" class="br.infnet.diegorezende.hibernate.model.Pintor" column="pintor_id"/>
+        <many-to-one name="museu" class="br.infnet.diegorezende.hibernate.model.Museu" column="museu_id"/>
+    </class>
+</hibernate-mapping>
+
