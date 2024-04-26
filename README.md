@@ -1,7 +1,8 @@
 # Persistência com HIBERNATE
 
-Projeto minimalista para demonstrar como manipular o Pojo Museu
-usando HIBERNATE através de operações CRUD. As configurações estão localizadas nos arquivos>
+Projeto minimalista para demonstrar como manipular os Pojo Museu, Pintor e Pintura juntamente 
+com suas relações @OneToMany e @ManyToOne usando HIBERNATE através de operações CRUD. 
+As configurações estão localizadas nos arquivos>
 * hibernate.cfg.xml
 * Museu.hbm.xml
 * Pintor.hbm.xml
