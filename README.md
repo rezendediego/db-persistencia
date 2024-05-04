@@ -1,7 +1,10 @@
 # Persistência com JPA e JPQL para buscas complexas
 
-Projeto minimalista para demonstrar como manipular os Pojo Museu, Pintor e Pintura juntamente 
-com suas relações @OneToMany e @ManyToOne usando HIBERNATE através de operações CRUD. 
+Projeto minimalista para demonstrar como manipular os Pojo Museu, Pintor, Pintura, Exposicao e Inventario juntamente 
+com suas relações @OneToMany, @ManyToOne, @OneToOne e @ManyToMany usando JPA através de operações CRUD e construção de 
+buscas complexas com JPQL.
+
+
 As configurações estão localizadas nos arquivos>
 * persistence.xml
 
